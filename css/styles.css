@@ -1,0 +1,37 @@
+h1 {
+    color: crimson;
+    text-align: center;
+    margin: auto;
+    border: 8px double crimson;
+    width: 100px;
+    height: 40px;
+}
+
+h2 {
+    color: crimson;
+    text-align: center;
+    margin: auto;
+    border: 8px double crimson;
+    width: 150px;
+    height: 30px;
+}
+
+li {
+    color: aliceblue;
+    font-size: large;
+}
+
+p {
+    color: mintcream;
+   font-size: larger
+}
+
+a {
+    text-decoration: none;
+    color: aquamarine;
+
+}
+
+body {
+    background-color: black;
+}
