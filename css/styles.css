@@ -11,9 +11,11 @@ h2 {
     text-align: center;
     margin: auto;
     border: 8px double crimson;
-    width: 150px;
-    height: 30px;
+    width: 180px;
+    font-size: xx-large;
 }
+
+
 
 li {
     color: aliceblue;
@@ -22,7 +24,7 @@ li {
 
 p {
     color: mintcream;
-   font-size: larger
+   font-size: x-large;
 }
 
 a {
@@ -56,4 +58,20 @@ body {
 }
 #Imaginário{
     color: gold;
+}
+#Fogo {
+    color: red;
+}
+#Gelo {
+    color: cyan;
+}
+#Vento {
+    color: aquamarine;
+}
+#Fisíco {
+    color: lightgray;
+}
+
+.ali {
+    text-align: center;
 }
