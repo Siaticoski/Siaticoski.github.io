@@ -3,8 +3,7 @@ h1 {
     text-align: center;
     margin: auto;
     border: 8px double crimson;
-    width: 100px;
-    height: 40px;
+    width: 300px;
 }
 
 h2 {
@@ -29,9 +28,32 @@ p {
 a {
     text-decoration: none;
     color: aquamarine;
-
 }
 
 body {
     background-color: black;
+}
+
+#tela_inicial {
+    text-align: center;
+}
+
+.link {
+    background-color: darkslategray;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: aqua;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+#Quântico {
+    color: slateblue;
+}
+#Raio {
+    color: orchid;
+}
+#Imaginário{
+    color: gold;
 }
