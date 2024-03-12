@@ -1,16 +1,16 @@
 h1 {
-    color: crimson;
+    color: azure;
     text-align: center;
     margin: auto;
-    border: 8px double crimson;
+    border: 8px double azure;
     width: 300px;
 }
 
 h2 {
-    color: crimson;
+    color: azure;
     text-align: center;
     margin: auto;
-    border: 8px double crimson;
+    border: 8px double azure;
     width: 180px;
     font-size: xx-large;
 }
@@ -19,7 +19,7 @@ h2 {
 
 li {
     color: aliceblue;
-    font-size: large;
+    font-size: x-large;
 }
 
 p {
@@ -34,6 +34,9 @@ a {
 
 body {
     background-color: black;
+    background-image: url('../img/plano_de_fundo.png');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #tela_inicial {
@@ -41,14 +44,16 @@ body {
 }
 
 .link {
-    background-color: darkslategray;
+    background-color: black;
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
-    color: aqua;
+    color: azure;
     padding: 8px 15px;
     border-radius: 20px;
 }
+
+
 
 #Quântico {
     color: slateblue;
