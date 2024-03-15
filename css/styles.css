@@ -15,7 +15,14 @@ h2 {
     font-size: xx-large;
 }
 
-
+h3 {
+    color: azure;
+    text-align: center;
+    margin: auto;
+    border: 8px double azure;
+    width: 180px;
+    font-size: xx-large;
+}
 
 li {
     color: aliceblue;
@@ -39,6 +46,14 @@ body {
     background-attachment: fixed;
 }
 
+div {
+    margin: auto;
+}
+
+main {
+    margin: auto;
+}
+
 #tela_inicial {
     text-align: center;
 }
@@ -53,7 +68,70 @@ body {
     border-radius: 20px;
 }
 
+.img {
+    margin: auto;
+    border: 5px solid azure;
+    text-align: center;
+    width: 700px;
+    border-radius: 10%;
+}
 
+
+#ima {
+    margin: auto;
+    border: 15px double gold;
+    text-align: center;
+    width: 460px;
+    border-radius: 10%;
+}
+
+#qua {
+    margin: auto;
+    border: 15px double slateblue;
+    text-align: center;
+    width: 460px;
+    border-radius: 10%;
+}
+
+#rai {
+    margin: auto;
+    border: 15px double orchid;
+    text-align: center;
+    width: 460px;
+    border-radius: 10%;
+}
+
+#fo {
+    margin: auto;
+    border: 15px double red;
+    text-align: center;
+    width: 460px;
+    border-radius: 10%;
+}
+
+#ge {
+    margin: auto;
+    border: 15px double cyan;
+    text-align: center;
+    width: 460px;
+    border-radius: 10%;
+}
+
+#ven {
+    margin: auto;
+    border: 15px double aquamarine;
+    text-align: center;
+    width: 460px;
+    border-radius: 10%;
+}
+
+#fisi {
+    margin: auto;
+    border: 15px double lightgrey;
+    text-align: center;
+    width: 460px;
+    border-radius: 10%;
+}
 
 #Quântico {
     color: slateblue;
