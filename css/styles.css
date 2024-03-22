@@ -4,6 +4,7 @@ h1 {
     margin: auto;
     border: 8px double azure;
     width: 300px;
+    margin-top: 70px;
 }
 
 h2 {
@@ -36,7 +37,6 @@ p {
 }
 
 a:hover {
-    text-decoration: none;
     color: rebeccapurple;
 }
 
@@ -59,15 +59,7 @@ main {
     text-align: center;
 }
 
-.link {
-    background-color: black;
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: none;
-    color: azure;
-    padding: 8px 15px;
-    border-radius: 20px;
-}
+
 
 .img {
     margin: auto;
@@ -75,98 +67,6 @@ main {
     text-align: center;
     width: 700px;
     border-radius: 10%;
-}
-
-#RETORNE {
-    background-color: gray;
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: none;
-    color: azure;
-    padding: 8px 15px;
-    border-radius: 20px;
-
-}
-
-#ima {
-    margin: auto;
-    border: 15px double gold;
-    text-align: center;
-    width: 460px;
-    border-radius: 10%;
-}
-
-#qua {
-    margin: auto;
-    border: 15px double slateblue;
-    text-align: center;
-    width: 460px;
-    border-radius: 10%;
-}
-
-#rai {
-    margin: auto;
-    border: 15px double darkorchid;
-    text-align: center;
-    width: 460px;
-    border-radius: 10%;
-}
-
-#fo {
-    margin: auto;
-    border: 15px double red;
-    text-align: center;
-    width: 460px;
-    border-radius: 10%;
-}
-
-#ge {
-    margin: auto;
-    border: 15px double dodgerblue;
-    text-align: center;
-    width: 460px;
-    border-radius: 10%;
-}
-
-/*
-*/
-
-#ven {
-    margin: auto;
-    border: 15px double aquamarine;
-    text-align: center;
-    width: 460px;
-    border-radius: 10%;
-}
-
-#fisi {
-    margin: auto;
-    border: 15px double lightgrey;
-    text-align: center;
-    width: 460px;
-    border-radius: 10%;
-}
-
-#Quântico {
-    color: slateblue;
-}
-#Raio {
-    color: darkorchid;
-}
-#Imaginário{
-    color: gold;
-}
-#Fogo {
-    color: red;
-}
-#Gelo {
-    color: dodgerblue;
-}
-#Vento {
-    color: aquamarine;
-}
-#Fisíco {
-    color: lightgray;
 }
 
 .ali {
@@ -179,10 +79,72 @@ header {
     width: 100%;
     height: 60px;
     background-color: black;
-
 }
 
-footer{
+
+#comunidade{
+    background-color: gray;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: azure;
+    padding: 8px 15px;
+    border-radius: 20px;
+    position: relative;
+    left: 30%;
+    top: 20px;
+}
+
+#reliquias {
+    background-color: gray;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: azure;
+    padding: 8px 15px;
+    border-radius: 20px;
+    position: relative;
+    left: 30%;
+    top: 20px;
+}
+
+#personagens {
+    background-color: gray;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: azure;
+    padding: 8px 15px;
+    border-radius: 20px;
+    position: relative;
+    left: 30%;
+    top: 20px;
+}
+
+#RETORNE {
+    background-color: gray;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: azure;
+    padding: 8px 15px;
+    border-radius: 20px;
+    position: relative;
+    left: 30%;
+    top: 20px;
+}
+
+#mamada {
+    background-color: gray;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: azure;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+footer {
     bottom: 0;
     position: fixed;
     width: 100%;

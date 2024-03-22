@@ -1,0 +1,97 @@
+.img {
+    margin: auto;
+    border: 5px solid azure;
+    text-align: center;
+    width: 700px;
+    border-radius: 10%;
+}
+
+
+#ima {
+    margin: auto;
+    border: 15px double gold;
+    text-align: center;
+    width: 460px;
+    border-radius: 10%;
+    background-color: black;
+}
+
+#qua {
+    margin: auto;
+    border: 15px double slateblue;
+    text-align: center;
+    width: 460px;
+    border-radius: 10%;
+    background-color: black;
+}
+
+#rai {
+    margin: auto;
+    border: 15px double darkorchid;
+    text-align: center;
+    width: 460px;
+    border-radius: 10%;
+    background-color: black;
+}
+
+#fo {
+    margin: auto;
+    border: 15px double red;
+    text-align: center;
+    width: 460px;
+    border-radius: 10%;
+    background-color: black;
+}
+
+#ge {
+    margin: auto;
+    border: 15px double dodgerblue;
+    text-align: center;
+    width: 460px;
+    border-radius: 10%;
+    background-color: black;
+}
+
+/*
+*/
+
+#ven {
+    margin: auto;
+    border: 15px double aquamarine;
+    text-align: center;
+    width: 460px;
+    border-radius: 10%;
+    background-color: black;
+}
+
+#fisi {
+    margin: auto;
+    border: 15px double lightgrey;
+    text-align: center;
+    width: 460px;
+    border-radius: 10%;
+    background-color: black;
+}
+
+#Quântico {
+    color: slateblue;
+}
+#Raio {
+    color: darkorchid;
+}
+#Imaginário{
+    color: gold;
+}
+#Fogo {
+    color: red;
+}
+#Gelo {
+    color: dodgerblue;
+}
+#Vento {
+    color: aquamarine;
+}
+#Fisíco {
+    color: lightgray;
+}
+
