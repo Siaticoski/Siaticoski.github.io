@@ -24,6 +24,7 @@ h3 {
     border: 8px double azure;
     width: 180px;
     font-size: xx-large;
+    margin-top: 70px;
 }
 
 li {
@@ -60,14 +61,16 @@ main {
 }
 
 
-
 .img {
     margin: auto;
     border: 5px solid azure;
     text-align: center;
     width: 700px;
     border-radius: 10%;
+    height: 400px;
 }
+
+
 
 .ali {
     text-align: center;
@@ -81,7 +84,6 @@ header {
     background-color: black;
 }
 
-
 #comunidade{
     background-color: gray;
     font-size: 14px;
@@ -89,22 +91,22 @@ header {
     text-decoration: none;
     color: azure;
     padding: 8px 15px;
-    border-radius: 20px;
+    border-radius: 10px;
     position: relative;
-    left: 30%;
+    left: 50%;
     top: 20px;
 }
 
-#reliquias {
+#elementos {
     background-color: gray;
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
     color: azure;
     padding: 8px 15px;
-    border-radius: 20px;
+    border-radius: 10px;
     position: relative;
-    left: 30%;
+    left: 39%;
     top: 20px;
 }
 
@@ -115,7 +117,7 @@ header {
     text-decoration: none;
     color: azure;
     padding: 8px 15px;
-    border-radius: 20px;
+    border-radius: 10px;
     position: relative;
     left: 30%;
     top: 20px;
@@ -128,21 +130,15 @@ header {
     text-decoration: none;
     color: azure;
     padding: 8px 15px;
-    border-radius: 20px;
+    border-radius: 10px;
     position: relative;
     left: 30%;
     top: 20px;
 }
 
-#mamada {
-    background-color: gray;
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: none;
-    color: azure;
-    padding: 8px 15px;
-    border-radius: 20px;
-}
+
+
+
 
 footer {
     bottom: 0;

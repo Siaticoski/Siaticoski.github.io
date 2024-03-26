@@ -16,6 +16,31 @@
     background-color: black;
 }
 
+#I {
+    margin: auto;
+    border: 15px double gold;
+    text-align: left;
+    width: 460px;
+    border-radius: 10%;
+    background-color: black;
+}
+
+#a {
+    color: gold;
+}
+#n {
+    color: slateblue;
+}
+
+#Q {
+    margin: auto;
+    border: 15px double slateblue;
+    text-align: left;
+    width: 460px;
+    border-radius: 10%;
+    background-color: black;
+}
+
 #qua {
     margin: auto;
     border: 15px double slateblue;
@@ -32,6 +57,7 @@
     width: 460px;
     border-radius: 10%;
     background-color: black;
+    margin-bottom: 50px;
 }
 
 #fo {
@@ -53,6 +79,7 @@
 }
 
 /*
+        <img class="img" src="img/tela_inicial.png" alt="trem" width= 800>
 */
 
 #ven {
@@ -94,4 +121,3 @@
 #Fisíco {
     color: lightgray;
 }
-
