@@ -212,7 +212,15 @@ header {
 }
 /*LINKS*/
 
-#lado
+.lado {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 40px 0px;
+    max-width: 1024px;
+    min-width: 325px;
+    flex-wrap: wrap;
+}
 
 
 footer {
@@ -223,5 +231,14 @@ footer {
     background-color: black;
     color: mintcream;
     font-size: x-large;
+    text-align: center;
+}
+
+.corecao{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
 }
