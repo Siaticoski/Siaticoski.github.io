@@ -222,6 +222,23 @@ header {
     flex-wrap: wrap;
 }
 
+#ruma {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1024px;
+    min-width: 325px;
+}
+
+#tf {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1024px;
+    min-width: 325px;
+}
 
 footer {
     bottom: 0;
@@ -231,14 +248,5 @@ footer {
     background-color: black;
     color: mintcream;
     font-size: x-large;
-    text-align: center;
-}
-
-.corecao{
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     text-align: center;
 }
