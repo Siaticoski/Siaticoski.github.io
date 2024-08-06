@@ -1,7 +1,7 @@
 h1 {
     color: azure;
     text-align: center;
-    margin: auto;
+    margin: 10px;
     border: 8px double azure;
     width: 300px;
     margin-top: 70px;
@@ -69,6 +69,7 @@ main {
     width: 700px;
     border-radius: 10%;
     height: 400px;
+
 }
 
 
