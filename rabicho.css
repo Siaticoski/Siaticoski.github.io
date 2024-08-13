@@ -1,0 +1,36 @@
+a {
+color: greenyellow;
+text-decoration: none;
+font-size: x-large;
+position: relative;
+left: 80%;
+border: 3px dashed greenyellow;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+body{
+    background-color: black;
+}
+div {
+    border: 4px dashed cyan;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    margin: 20px auto;
+    
+}
+p {
+    color: aliceblue;
+    position: relative;
+    top: 13.4%;
+    left: 30px;
+    font-size: x-large;
+    border: 3px dashed cyan;
+    width: 363.3px;
+    
+}
+span{
+    color: cyan;
+}
