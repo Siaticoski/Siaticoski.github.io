@@ -1,36 +1,32 @@
-a {
-color: greenyellow;
-text-decoration: none;
-font-size: x-large;
-position: relative;
-left: 80%;
-border: 3px dashed greenyellow;
+table{
+    border-collapse: collapse;
 }
-h1{
-    text-align: center;
-    color: aliceblue;
+
+thead{
+    color: white;
+}
+
+tbody{
+    color: white;
+}
+
+tfoot{
+    color: white;
+}
+
+th, 
+td{
+    border: 1px solid white;
 }
 body{
     background-color: black;
 }
-div {
-    border: 4px dashed cyan;
-    width: 500px;
-    height: 400px;
-    position: relative;
-    margin: 20px auto;
-    
+
+a{
+    text-decoration: none;
+    color: lime;    
 }
-p {
-    color: aliceblue;
-    position: relative;
-    top: 13.4%;
-    left: 30px;
-    font-size: x-large;
-    border: 3px dashed cyan;
-    width: 363.3px;
-    
-}
-span{
-    color: cyan;
+
+.link {
+    color: lime;
 }
