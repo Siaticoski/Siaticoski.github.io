@@ -1,0 +1,26 @@
+a img{
+    width: 30px;
+}
+footer{
+    background-color: green;
+}
+.Inicial{
+    background-color: white;
+    font-size: xx-large;
+    flex-direction: column;
+    text-align: center;
+
+}
+nav{
+    background-color: green;
+}
+body{
+    background-color: black;
+}
+img {
+    width: 450px;
+}
+div{
+    background-color: white;
+
+}
