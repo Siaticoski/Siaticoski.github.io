@@ -30,3 +30,21 @@ a{
 .link {
     color: lime;
 }
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    max-height: 425px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+
+}
+
+#projeto{
+    color: lime;
+}
