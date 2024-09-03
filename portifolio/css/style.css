@@ -2,23 +2,44 @@ a img{
     width: 30px;
 }
 footer{
-    background-color: black;
+    background-color: var(--back3);
+    width: 100%;
+    height: 30px;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    
 }
+
+:root{
+    --back1: dimgray;
+    --back2: white;
+    --back3: black;
+    --color1: whitesmoke;
+    --color2: white;
+
+}
+
 .Inicial{
-    background-color: white;
+    background-color: var(--back1);
     font-size: xx-large;
     flex-direction: column;
     text-align: center;
-
+    color: var(--color1);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
+
 body{
-    background-color: white;
+    background-color: var(--back2);
 }
 img {
     width: 450px;
 }
 div{
-    background-color: white;
+    background-color: var(--back2);
 
 }
 
@@ -27,8 +48,13 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: black;
-    color: white;
+    background-color: var(--back3);
+    color: var(--color1);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
 }
 
 .menu ul{
@@ -36,13 +62,45 @@ header {
     list-style: none;
     margin: 0;
     padding: 0;
+    
 }
 
 .menu li {
     margin-left: 20px;
+
 }
 
 .menu a {
-    color: white;
+    color: var(--color1);
     text-decoration: none;
+}
+#img{
+    align-items: center;
+    width: 99.5%;
+    height: 100%;
+    border: 5px solid black ;
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+#eu{
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    border: 5px solid black;
+    border-radius: 10%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+#git{
+    width: 30px;
+    height: 30px;
 }
