@@ -29,15 +29,13 @@ header {
     --back3: black;
     --color1: whitesmoke;
     --color2: white;
-
+    --color3: greenyellow;
 }
 
 body{
     background-color: var(--back1);
 }
-img {
-    width: 450px;
-}
+
 div{
     background-color: var(--back2);
 
@@ -66,6 +64,24 @@ div{
     color: var(--color1);
     text-decoration: none;
 }
+
+.link:hover{
+    color: var(--back1);
+    box-shadow: 0 0 6px 6px #fff inset;
+    font-size: 100%;
+    transform: scale(1.10,1.10);
+
+}
+
+.link{
+    text-decoration: none;
+    color: var(--back1);
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 4px;
+    color: var(--color3);
+}
+
 
 /*#img{
     align-items: center;
@@ -162,12 +178,6 @@ fieldset{
     width: 80px;
 }
 
-#entre{
-    color: var(--color1);
-    font-size: xx-large;
-    border: 3px solid black;
-}
-
 #entre2{
     color: var(--color1);
     font-size: xx-large;
@@ -175,13 +185,72 @@ fieldset{
     margin: 10px;
 }
 
-#sobreimg{
-    background-color: var(--back3);
-}
-
+/*------------------ SOBRE ------------------*/
 #sobre{
     background-color: var(--back1);
+    width: 100%;
+    flex: wrap;
+    flex-direction: column;
 }
+
+#sobreimg{
+    background-color: var(--back1);
+    width: 100%;
+    height: 470px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+#H{
+    color: var(--back3);
+    font-size: 35px;
+    text-align: center;
+    background-color: var(--cor-principal);
+    flex-grow: 1;
+    padding-top: 75px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#T{
+    color: var(--color2);
+    font-size: 25px;
+    text-align: center;
+    background-color: var(--cor-principal);
+    flex-grow: 1;
+}
+
+span{
+    color: black;
+}
+
+.simg{
+    width: 450px;
+    height: 450px;
+}
+
+#mycont{
+    color: var(--back2);
+    font-size: 25px;
+    text-align: center;
+    background-color: var(--back3);
+    flex-grow: 1;
+
+    font-weight: bold;
+    text-transform: uppercase;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#aimg{
+    width: 80px;
+}
+
+/*-----------------------------------------------*/
 
 
 /*------------------ tela inicial --------------------*/
@@ -239,21 +308,23 @@ fieldset{
 
 
 
-
-.sec-projetos{
+/*------------------- CONTATO ----------------------*/
+.cont-princi{
     padding: 100px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--back1);
 }
 
-.sec-projetos-1{
+.cont-segun{
     max-width: 1256px;
-    padding: 40px 0px;
+    padding: 30px 0px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 20px;
+    background-color: var(--back2);
 }
 
 .contato{
@@ -267,11 +338,56 @@ fieldset{
     padding: 10px 0 0 0;
     text-align: center;
     margin-left: 25px;
+    background-color: var(--back3);
+}
+
+.color{
+    color: var(--back2);
+}
+
+#contato {
+    min-width: 350px;
+    max-width: 500px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 0 0;
+    text-align: center;
+    margin-right: 25px;
+    background-color: var(--back1);
+}
+
+#con1{
+    color: var(--back2);
+    font-size: 35px;
+    text-align: center;
+    background-color: var(--cor-principal);
+    flex-grow: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 50px;
 }
 
 #imagensLink{
-    width: 200px;
+    width: 250px;
+    margin-bottom: 110px;
 }
+
+#entre{
+    margin-top: 100px;
+    width: 30%;
+    background-color: var(--back1);
+    text-align: center;
+    align-items: center;
+    margin-left: 650px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: var(--color1);
+}
+
 /*------------------------ projetos -----------------*/
 #card_prin{
     background-color: var(--back1);
@@ -302,14 +418,15 @@ fieldset{
     align-items: center;
     padding: 0 0 0 0;
     text-align: center;
-    border: 3px solid white;
+    border: 4px solid white;
     background-color: var(--back3);
+    margin-left: 38%;
 }
 
 .padrao{
     width: 400px;
     height: 400px;
-    border: 3px solid white;
+    border: 4px solid white;
 }
 
 
@@ -330,7 +447,6 @@ fieldset{
     text-align: center;
     background-color: var(--cor-principal);
     flex-grow: 1;
-    border: 3px solid white;
     padding-left: 147px;
     padding-right: 147px;
 }
@@ -341,7 +457,21 @@ fieldset{
     text-align: center;
     background-color: var(--cor-principal);
     flex-grow: 1;
-    border: 3px solid white;
     padding-left: 73px;
     padding-right: 73px;
+}
+
+.links:hover {
+    color: var(--back1);
+    box-shadow: 0 0 6px 6px #adff2f inset;
+    font-size: 100%;
+    transform: scale(1.10,1.10);
+}
+
+.links{
+    text-decoration: none;
+    color: var(--back1);
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    color: var(--color3);
 }

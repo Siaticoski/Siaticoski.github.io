@@ -13,26 +13,29 @@
     <header>
         <nav class="menu">
             <ul>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="index.html">Inicio</a></li>
+                <li><a class="link" href="projetos.html">Projetos</a></li>
+                <li><a class="link" href="sobre.html">Sobre</a></li>
+                <li><a class="link" href="index.html">Inicio</a></li>
             </ul>
         </nav>
     </header>
     
-    <p id="entre">entre em contato ou acesse as redes sociais.</p>
+    <div id="entre">
+        <p >entre em contato ou acesse as redes sociais.</p>
+    </div>
+
     <section>
-        <div class="sec-projetos">
-            <div class="sec-projetos-1">
+        <div class="cont-princi">
+            <div class="cont-segun">
                 <div class="contato">
                     <form method="post">
-                            <label for="name">Nome</label>
+                            <label class="color" for="name">Nome</label>
                             <input type="text" id="name" name="name" placeholder="Nome do Contato" required>
 
-                            <label for="email">Email</label>
+                            <label class="color" for="email">Email</label>
                             <input type="email" id="email" name="email" placeholder="Digite o Email" required>
 
-                            <label for="Mensagem">Mensagem</label>
+                            <label class="color" for="Mensagem">Mensagem</label>
                             <textarea name="Mensagem" id="mensagem" placeholder="Digite uma Mensagem"></textarea>
 
                             <button type="button" id="butão">Enviar</button>
@@ -41,7 +44,8 @@
 
 
 
-                <div class="contato" >
+                <div id="contato" >
+                    <h2 id="con1">Contatos</h2>
                     <a href="https://github.com/Siaticoski"><img id="imagensLink" src="img/gitnew.png" alt="git"></a>
                    
                 </div>
@@ -50,5 +54,7 @@
         </div>
 
     </section>
+    
+
 </body>
 </html>
