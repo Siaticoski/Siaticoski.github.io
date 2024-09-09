@@ -137,7 +137,7 @@ textarea {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #ff0000;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -145,7 +145,7 @@ button {
     cursor: pointer;
 }
 button:hover {
-    background-color: #0056b3;
+    background-color: #ff0000;
 }
 textarea {
     height: 120px;

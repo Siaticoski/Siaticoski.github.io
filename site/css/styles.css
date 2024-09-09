@@ -1,3 +1,53 @@
+header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 35px;
+    background-color: black;
+    color: mintcream;
+    font-size: x-large;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+   justify-content: center; 
+   width: 50%;
+}
+
+.links:hover{
+    color: white;
+    box-shadow: 0 0 6px 6px #a9a9a9 inset;
+    font-size: 100%;
+    transform: scale(1.10,1.10);
+}
+.links {
+    font-weight: bold;
+    text-decoration: none;
+    color: azure;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.imglink{
+    width: 60px;
+
+}
+
 h1 {
     color: azure;
     text-align: center;
@@ -28,6 +78,10 @@ h3 {
     margin-top: 70px;
 }
 
+.ali {
+    text-align: center;
+}
+
 li {
     color: aliceblue;
     font-size: x-large;
@@ -36,10 +90,6 @@ li {
 p {
     color: mintcream;
    font-size: x-large;
-}
-
-a:hover {
-    color: aliceblue;
 }
 
 body {
@@ -61,34 +111,30 @@ main {
     text-align: center;
 }
 
-
+/*------------------------------ INICIAL ------------------------*/
 .img {
     margin: auto;
     border: 5px solid azure;
     text-align: center;
-    width: 700px;
+    width: 600px;
     border-radius: 10%;
     height: 400px;
-
+    min-width: 325px;
 }
+ #danimg{
+    width: 300px;
+    height: 250px;
+ }
 
 
 
-.ali {
-    text-align: center;
-}
 
-header {
-    top: 0;
-    position: fixed;
-    width: 100%;
-    height: 60px;
-    background-color: black;
-}
+/*--------------------------------------------------------------*/
 
 
 /* LINKS */
 /*PÁGINA PRINCIPAL*/
+/*
 #comunidade{
     background-color: darkgray;
     font-size: 14px;
@@ -113,30 +159,9 @@ header {
     left: 39%;
     top: 20px;
 }
-#personagens {
-    background-color: darkgray;
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: none;
-    color: azure;
-    padding: 8px 15px;
-    border-radius: 10px;
-    position: relative;
-    left: 30%;
-    top: 20px;
-}
-#RETORNE {
-    background-color: darkgray;
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: none;
-    color: azure;
-    padding: 8px 15px;
-    border-radius: 10px;
-    position: relative;
-    left: 30%;
-    top: 20px;
-}
+*/
+
+
 /* PERSONAGENS */
 #tome {
     background-color: darkgray;
@@ -234,20 +259,12 @@ header {
 
 #tf {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
+    gap: 10px;
+    padding: 40px 0px;
     max-width: 1024px;
     min-width: 325px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 
-footer {
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    height: 35px;
-    background-color: black;
-    color: mintcream;
-    font-size: x-large;
-    text-align: center;
-}
